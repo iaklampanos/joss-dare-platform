@@ -48,7 +48,7 @@ The DARE platform is designed to live in-between user applications and the under
 
 DARE views workflows and their constituent components (processing elements or *PEs*) as potentially valuable, reusable and shareable research tokens. In order to support workflow reusability, sharing and versioning, the platform provides all the necessary tools for research scientists and engineers to register and describe their applications. Subsequently it allows reference and invocation of workflows and applications by name, via the RESTful APIs provided. Moreover, the platform includes provenance tools to monitor the execution of workflows in real time, or to mine information on past workflow executions.
 
-<img src="dare_overview_2020.png" width="400" height="400">
+<img src="dare_overview_2020.png" width="400" height="400" class="center">
 
 The main logical components of the DARE platform, along with their main corresponding constituent components are the following:
 
