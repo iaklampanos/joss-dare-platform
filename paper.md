@@ -8,8 +8,8 @@ tags:
   - Cloud
   - e-infrastructures
 authors:
-  - name: One two
-     orcid: 1234
+  - name: Iraklis A. Klampanos
+     orcid: 0000-0003-0478-4300
      affiliation: "1" # (Multiple affiliations must be quoted)
 affiliations:
  - name: National Centre for Scientific Research “Demokritos”
@@ -18,9 +18,7 @@ date: 26 June 2020
 bibliography: bibliography.bib
 ---
 
-
 # Introduction
-
 
 In recent years, modern science has relied more than ever on large-scale data as well as on distributed computing and human resources. Scientists and research engineers in fields such as climate, atmospheric sciences and computational seismology, constantly strive to make good use of remote and largely heterogeneous computing resources (high-performance computing -HPC- facilities, clouds, private institutional or local resources, etc.), process, archive and analyse results stored in different locations and collaborate effectively with other scientists.
 
