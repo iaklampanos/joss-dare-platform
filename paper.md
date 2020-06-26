@@ -152,7 +152,7 @@ The DARE platform is openly available on [GitLab](https://gitlab.com/project-dar
 
 Each DARE component includes its own tests as well as client-side helper functions or a short jupyter notebook demo. For the reader's convenience, we provide pointers to relevant client-side helper functions or demos:
 
-i. [Dispel4py Information Registry](https://gitlab.com/project-dare/d4p-registry/-/tree/master/cli        
+i. [Dispel4py Information Registry](https://gitlab.com/project-dare/d4p-registry/-/tree/master/client)        
 ii. [Workflow Registry](https://gitlab.com/project-dare/workflow-registry/-/tree/master/workflow_client)
 iii. [Execution Registry](https://gitlab.com/project-dare/exec-registry/-/tree/master/client)
 
