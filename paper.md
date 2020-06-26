@@ -40,7 +40,7 @@ The DARE platform is designed to live in-between user applications and the under
 * dispel4py (\cite{Filgueira2017}) is a Python framework for the specification of fine-grained, streaming workflows for data-intensive applications. It comes with mappings to selected enactment targets (e.g. Apache Storm, MPI, Multiprocessing, etc.), which are triggered at run-time. As a result, workflows described in dispel4py can be executed in fundamentally different execution contexts. 
 * CWL (\cite{amstutz2016common}) is a YAML-based specification language for describing task-oriented workflows and tools in a way that makes them portable and scalable across a variety of software and hardware environments, from workstations to cluster, cloud, and HPC environments. Like dispel4py, CWL has been designed to meet the needs of data-intensive science, while targeting a different set of requirements.
 
-DARE views workflows and their constituent components (processing elements-PEs) as potentially valuable, reusable and shareable research tokens. In order to support workflow reusability, sharing and versioning, the platform provides all the necessary tools for research scientists and engineers to register and describe their applications. Subsequently it allows reference and invocation of workflows and applications by name, via the RESTful APIs provided. Moreover, the platform includes provenance tools to monitor the execution of workflows in real time, or to mine information on past workflow executions.
+DARE views workflows and their constituent components (processing elements or *PEs*) as potentially valuable, reusable and shareable research tokens. In order to support workflow reusability, sharing and versioning, the platform provides all the necessary tools for research scientists and engineers to register and describe their applications. Subsequently it allows reference and invocation of workflows and applications by name, via the RESTful APIs provided. Moreover, the platform includes provenance tools to monitor the execution of workflows in real time, or to mine information on past workflow executions.
 
 
 ![DARE Overview](dare_overview_2020.png)
@@ -127,7 +127,7 @@ The [volcanology use case](https://gitlab.com/project-dare/wp6_volcanology) aims
 ## Atmospheric sciences: Cyclone tracking application
 
 
-Cyclone Tracking is our new [use-case](https://gitlab.com/project-dare/wp7_cyclone-tracking) in the Climate domain. The use-case is based on a binary Fortran-compiled program (https://github.com/cerfacs-globc/cyclone_tracking) which implements a tracking method for tropical center and transition diagnostic and for locating pressure / vorticity centers. The Cyclone workflow is developed exclusively in CWL, and it makes use of a cyclone tracking model to produce weather data and visualise the results.
+Cyclone Tracking is our new [use-case](https://gitlab.com/project-dare/wp7_cyclone-tracking) in the Climate domain. The use-case is based on a binary Fortran-compiled program (https://github.com/cerfacs-globc/cyclone_tracking) which implements a tracking method for tropical centre and transition diagnostic and for locating pressure / vorticity centres. The Cyclone workflow is developed exclusively in CWL, and it makes use of a cyclone tracking model to produce weather data and visualise the results.
 
 
 ## The Contribution of the DARE Platform
