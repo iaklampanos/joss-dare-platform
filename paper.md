@@ -132,10 +132,11 @@ The [volcanology use case](https://gitlab.com/project-dare/wp6_volcanology) aims
 Cyclone Tracking is our new [use-case](https://gitlab.com/project-dare/wp7_cyclone-tracking) in the Climate domain. The use-case is based on a binary Fortran-compiled program (https://github.com/cerfacs-globc/cyclone_tracking) which implements a tracking method for tropical centre and transition diagnostic and for locating pressure / vorticity centres. The Cyclone workflow is developed exclusively in CWL, and it makes use of a cyclone tracking model to produce weather data and visualise the results.
 
 
-## The Contribution of the DARE Platform
+## Contributions of the DARE Platform
 
 
 In the use-case listed above the DARE platform achieves the following:
+
 1. It interfaces with users and external systems via a comprehensive and secure RESTful API
 2. It facilitates the development of modular, reusable and shareable solutions via its workflow registries
 3. It allows for the combination of different workflow approaches, dispel4py and CWL, within the same platform and development environment
