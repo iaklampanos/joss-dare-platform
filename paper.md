@@ -134,7 +134,6 @@ Cyclone Tracking is our new [use-case](https://gitlab.com/project-dare/wp7_cyclo
 
 ## Contributions of the DARE Platform
 
-
 In the use-cases listed above, the DARE platform contributes the following:
 
 1. It interfaces with users and external systems via a comprehensive and secure RESTful API
@@ -147,12 +146,11 @@ In the use-cases listed above, the DARE platform contributes the following:
 
 # Software
 
-
 The DARE platform is openly available on [GitLab](https://gitlab.com/project-dare/dare-platform). The DARE repository comes with a [GitLab page](https://project-dare.gitlab.io/dare-platform/) which contains deployment instructions, API documentation and a training demo. The demo is available in the dedicated [DARE Execution API GitLab Repository](https://gitlab.com/project-dare/exec-api/-/tree/master/examples/mySplitMerge) and is also used as an integration test.
 
-Each DARE component includes its own tests as well as client-side helper functions or a short jupyter notebook demo. For the reader's convenience, we provide pointers to relevant client-side helper functions or demos:
+Each DARE component includes its own tests as well as client-side helper functions or a short jupyter notebook demo. For the reader's convenience, we provide the following pointers to relevant client-side helper functions or demos:
 
-i. [Dispel4py Information Registry](https://gitlab.com/project-dare/d4p-registry/-/tree/master/client)        
+i. [Dispel4py Information Registry](https://gitlab.com/project-dare/d4p-registry/-/tree/master/client)
 ii. [Workflow Registry](https://gitlab.com/project-dare/workflow-registry/-/tree/master/workflow_client)
 iii. [Execution Registry](https://gitlab.com/project-dare/exec-registry/-/tree/master/client)
 
@@ -165,7 +163,7 @@ Directions for future work include the following:
 
 1. Make use of provenance data and workflow metadata to further automate the optimisation of workflow execution.
 2. Provide wider-ranging search facilities to users for data, components and containerised environments.
-3. Provide of-the-shelf integration with domain-specific as well as generic repositories (e.g. with [Zenodo](https://zenodo.org/)) in order to facilitate better Open Science best practices.
+3. Provide of-the-shelf integration with domain-specific as well as generic repositories (e.g. with [Zenodo](https://zenodo.org/)) to facilitate Open Science best practices.
 
 # Acknowledgements
 
