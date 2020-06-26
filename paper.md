@@ -8,9 +8,9 @@ tags:
   - Cloud
   - e-infrastructures
 authors:
-  - name:
+  - name: One two
      orcid:
-     affiliation: "1, 2" # (Multiple affiliations must be quoted)
+     affiliation: "1" # (Multiple affiliations must be quoted)
   - name:
      orcid:
      affiliation: 1
