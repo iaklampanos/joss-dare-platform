@@ -31,10 +31,7 @@ In recent years, modern science has relied more than ever on large-scale data as
 In this environment, scientists and research engineers need user-friendly, self-optimising environments to develop and execute their scientific workflows without being exposed to the implementation detail and complexity of the underlying systems. They need efficient and easy-to-use environments to store and manage their workflows, working datasets and results in order to reuse, share them with colleagues or encourage attribution. Research engineers in particular need to be able to create user-facing prototypes and solutions efficiently and accurately. Last, users need to feel in control and be able to track the progress of execution, data transformation, at a fine level.
 
 
-In this article we present the DARE platform, an open source project developed as part of the EU H2020 project "DARE: Delivering Agile Research Excellence on European e-Infrastructures"[^1]. The main goal of the DARE platform is to support research scientists and research engineers/developers to transparently make use of research resources and research infrastructures, platforms and software in order to create data- and computationally-intensive domain-oriented applications. The DARE platform enables seamless development and reusability of scientific workflows / applications and the reproducibility of the experiments. It is also designed to be reflective, in order to enable monitoring, reproducibility and optimisations. DARE primarily focuses on the European e-infrastructures ecosystem, but it can also be used independently, e.g. as part of local or specialised installations. More information on DARE can be found in [@klampanos2019dare; @atkinson2019comprehensible; @atkinson_malcolm_2020_3697898].
-
-
-[^1]: This work has been supported by the EU H2020 research and innovation programme under grant agreement No 777413.
+In this article we present the DARE platform, an open source project developed as part of the EU H2020 project "DARE: Delivering Agile Research Excellence on European e-Infrastructures". The main goal of the DARE platform is to support research scientists and research engineers/developers to transparently make use of research resources and research infrastructures, platforms and software in order to create data- and computationally-intensive domain-oriented applications. The DARE platform enables seamless development and reusability of scientific workflows / applications and the reproducibility of the experiments. It is also designed to be reflective, in order to enable monitoring, reproducibility and optimisations. DARE primarily focuses on the European e-infrastructures ecosystem, but it can also be used independently, e.g. as part of local or specialised installations. More information on DARE can be found in [@klampanos2019dare; @atkinson2019comprehensible; @atkinson_malcolm_2020_3697898].
 
 
 # The DARE Platform
@@ -168,5 +165,10 @@ Directions for future work include the following:
 1. Make use of provenance data and workflow metadata to further automate the optimisation of workflow execution.
 2. Provide wider-ranging search facilities to users for data, components and containerised environments.
 3. Provide of-the-shelf integration with domain-specific as well as generic repositories (e.g. with [Zenodo](https://zenodo.org/)) in order to facilitate better Open Science best practices.
+
+# Acknowledgements
+
+This work has been supported by the EU H2020 research and innovation programme under grant agreement No 777413.
+
 
 # References
