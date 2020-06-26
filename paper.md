@@ -151,7 +151,7 @@ In the use-case listed above the DARE platform achieves the following:
 # Software
 
 
-The DARE platform is available on [GitLab](https://gitlab.com/project-dare/dare-platform) with our latest release so far (v3.2). We also have a [GitLab page](https://project-dare.gitlab.io/dare-platform/) with installation instructions, API documentation and a short demo. The demo is available in the [DARE Execution API GitLab Repository](https://gitlab.com/project-dare/exec-api/-/tree/master/examples/mySplitMerge) and can be used as an integration test.
+The DARE platform is available on [GitLab](https://gitlab.com/project-dare/dare-platform) with our latest release so far (v3.3). We also have a [GitLab page](https://project-dare.gitlab.io/dare-platform/) with installation instructions, API documentation and a short demo. The demo is available in the [DARE Execution API GitLab Repository](https://gitlab.com/project-dare/exec-api/-/tree/master/examples/mySplitMerge) and can be used as an integration test.
 
 
 Each DARE component may include its own tests, client-side helper functions or a short jupyter notebook demo. As example, we include some GitLab urls to client-side helper functions or demos:
