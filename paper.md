@@ -10,7 +10,13 @@ tags:
 authors:
   - name: Iraklis A. Klampanos
     orcid: 0000-0003-0478-4300
-    affiliation: "1" # (Multiple affiliations must be quoted)
+    affiliation: "1"
+  - name: Chrysoula Themeli
+    orcid: 0000-0000-0000-0000
+    affiliation: "1" 
+  - name: Vangelis Karkaletsis
+    orcid: 0000-0000-0000-0000
+    affiliation: "1"
 affiliations:
  - name: National Centre for Scientific Research “Demokritos”
    index: 1
