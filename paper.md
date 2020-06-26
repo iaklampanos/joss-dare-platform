@@ -135,7 +135,7 @@ Cyclone Tracking is our new [use-case](https://gitlab.com/project-dare/wp7_cyclo
 ## Contributions of the DARE Platform
 
 
-In the use-case listed above the DARE platform achieves the following:
+In the use-cases listed above, the DARE platform contributes the following:
 
 1. It interfaces with users and external systems via a comprehensive and secure RESTful API
 2. It facilitates the development of modular, reusable and shareable solutions via its workflow registries
@@ -148,12 +148,12 @@ In the use-case listed above the DARE platform achieves the following:
 # Software
 
 
-The DARE platform is available on [GitLab](https://gitlab.com/project-dare/dare-platform) with our latest release so far (v3.3). We also have a [GitLab page](https://project-dare.gitlab.io/dare-platform/) with installation instructions, API documentation and a short demo. The demo is available in the [DARE Execution API GitLab Repository](https://gitlab.com/project-dare/exec-api/-/tree/master/examples/mySplitMerge) and can be used as an integration test.
+The DARE platform is openly available on [GitLab](https://gitlab.com/project-dare/dare-platform). The DARE repository comes with a [GitLab page](https://project-dare.gitlab.io/dare-platform/) which contains deployment instructions, API documentation and a training demo. The demo is available in the dedicated [DARE Execution API GitLab Repository](https://gitlab.com/project-dare/exec-api/-/tree/master/examples/mySplitMerge) and is also used as an integration test.
 
+Each DARE component includes its own tests as well as client-side helper functions or a short jupyter notebook demo. For the reader's convenience, we provide pointers to relevant client-side helper functions or demos:
 
-Each DARE component may include its own tests, client-side helper functions or a short jupyter notebook demo. As example, we include some GitLab urls to client-side helper functions or demos:
-
-i. [Dispel4py Information Registry](https://gitlab.com/project-dare/d4p-registry/-/tree/master/cli        ii. [Workflow Registry](https://gitlab.com/project-dare/workflow-registry/-/tree/master/workflow_client)
+i. [Dispel4py Information Registry](https://gitlab.com/project-dare/d4p-registry/-/tree/master/cli        
+ii. [Workflow Registry](https://gitlab.com/project-dare/workflow-registry/-/tree/master/workflow_client)
 iii. [Execution Registry](https://gitlab.com/project-dare/exec-registry/-/tree/master/client)
 
 
