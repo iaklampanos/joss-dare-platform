@@ -168,6 +168,6 @@ Directions for future work include the following:
 
 1. Make use of provenance data and workflow metadata to further automate the optimisation of workflow execution.
 2. Provide wider-ranging search facilities to users for data, components and containerised environments.
-3. Provide of-the-shelf integration with domain-specific as well as generic repositories (e.g. with [Zenodo](https://zenodo.org/) in order to facilitate better Open Science best practices).
+3. Provide of-the-shelf integration with domain-specific as well as generic repositories (e.g. with [Zenodo](https://zenodo.org/)) in order to facilitate better Open Science best practices.
 
 # References
