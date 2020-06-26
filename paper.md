@@ -9,8 +9,8 @@ tags:
   - e-infrastructures
 authors:
   - name: Iraklis A. Klampanos
-     orcid: 0000-0003-0478-4300
-     affiliation: "1" # (Multiple affiliations must be quoted)
+    orcid: 0000-0003-0478-4300
+    affiliation: "1" # (Multiple affiliations must be quoted)
 affiliations:
  - name: National Centre for Scientific Research “Demokritos”
    index: 1
