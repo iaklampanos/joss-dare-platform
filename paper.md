@@ -121,7 +121,7 @@ The [volcanology use case](https://gitlab.com/project-dare/wp6_volcanology) aims
 ## Climate-change: Extending Climate4Impact
 
 
-[Climate4Impact](https://climate4impact.eu)(C4I) is a user friendly platform of services to enable access to climate data for the climate impact community. It has been developed as part of the EU funded IS-ENES series of projects since 2009. This [use case](https://gitlab.com/project-dare/WP7_IS-ENES_Climate4Impact) aims to enable the delegation of on-demand computational-intensive workflows to the DARE platform, from the IS-ENES C4I interface, also making use of data from the Earth System Grid Federation (ESGF). The DARE platform's objective is to provide efficient and transparent access to diverse computing resources through an easy-to-use API to easily deploy execution environments. Climate4Impact aims to increase and widen the use of climate modelling data \cite{page2018leveraging}, \cite{page2019ease}, \cite{page2019enabling}[a]. The C4I use-case is implemented as a single dispel4py workflow.
+[Climate4Impact](https://climate4impact.eu)(C4I) is a user friendly platform of services to enable access to climate data for the climate impact community. It has been developed as part of the EU funded IS-ENES series of projects since 2009. This [use case](https://gitlab.com/project-dare/WP7_IS-ENES_Climate4Impact) aims to enable the delegation of on-demand computational-intensive workflows to the DARE platform, from the IS-ENES C4I interface, also making use of data from the Earth System Grid Federation (ESGF). The DARE platform's objective is to provide efficient and transparent access to diverse computing resources through an easy-to-use API to easily deploy execution environments. Climate4Impact aims to increase and widen the use of climate modelling data \cite{page2018leveraging}, \cite{page2019ease}, \cite{page2019enabling}). The C4I use-case is implemented as a single dispel4py workflow. 
 
 
 ## Atmospheric sciences: Cyclone tracking application
@@ -149,20 +149,17 @@ The DARE platform is available on [GitLab](https://gitlab.com/project-dare/dare-
 
 
 Each DARE component may include its own tests, client-side helper functions or a short jupyter notebook demo. As example, we include some GitLab urls to client-side helper functions or demos:
-        i. [Dispel4py Information Registry](https://gitlab.com/project-dare/d4p-registry/-/tree/master/client)
-        ii. [Workflow Registry](https://gitlab.com/project-dare/workflow-registry/-/tree/master/workflow_client)
-        iii. [Execution Registry](https://gitlab.com/project-dare/exec-registry/-/tree/master/client) 
+
+i. [Dispel4py Information Registry](https://gitlab.com/project-dare/d4p-registry/-/tree/master/cli        ii. [Workflow Registry](https://gitlab.com/project-dare/workflow-registry/-/tree/master/workflow_client)
+iii. [Execution Registry](https://gitlab.com/project-dare/exec-registry/-/tree/master/client) 
 
 
 # Conclusions and Future Work 
 
-
 The main goal of the DARE platform is to support research developers to implement, track, maintain and execute complex, data-intensive applications in a unifying and self-optimising environment. The platform tries to hide as much infrastructure complexity as possible from the users, who can interact with the platform through the DARE API, as well as via helper Python functions and interactive tools.
 
-
 Directions for future work include the following:
+
 1. Make use of provenance data and workflow metadata to further automate the optimisation of workflow execution. 
 2. Provide wider-ranging search facilities to users for data, components and containerised environments.
 3. Provide of-the-shelf integration with domain-specific as well as generic repositories (e.g. with [Zenodo](https://zenodo.org/) in order to facilitate better Open Science best practices.
-[a]Should prob be 
-\cite{page2018leveraging,page2019ease,page2019enabling}
