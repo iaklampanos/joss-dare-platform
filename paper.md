@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'DARE Platform\: a Developer-Friendly and Self-Optimising Workflows-as-a-Service Framework for e-Science on the Cloud'
 tags:
   - Python
