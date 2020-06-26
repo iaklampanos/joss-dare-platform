@@ -12,7 +12,7 @@ authors:
     orcid: 0000-0003-0478-4300
     affiliation: "1"
   - name: Chrysoula Themeli
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0002-6759-4136
     affiliation: "1" 
   - name: Vangelis Karkaletsis
     orcid: 0000-0000-0000-0000
@@ -169,3 +169,6 @@ Directions for future work include the following:
 1. Make use of provenance data and workflow metadata to further automate the optimisation of workflow execution. 
 2. Provide wider-ranging search facilities to users for data, components and containerised environments.
 3. Provide of-the-shelf integration with domain-specific as well as generic repositories (e.g. with [Zenodo](https://zenodo.org/) in order to facilitate better Open Science best practices.
+
+# References
+
