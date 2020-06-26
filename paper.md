@@ -11,15 +11,10 @@ authors:
   - name: One two
      orcid:
      affiliation: "1" # (Multiple affiliations must be quoted)
-  - name:
-     orcid:
-     affiliation: 1
 affiliations:
  - name: National Centre for Scientific Research “Demokritos”
    index: 1
- - name:
-   index:
-date:
+date: 26 June 2020
 bibliography: bibliography.bib
 ---
 
