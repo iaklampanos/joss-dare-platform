@@ -9,7 +9,7 @@ tags:
   - e-infrastructures
 authors:
   - name: One two
-     orcid:
+     orcid: 1234
      affiliation: "1" # (Multiple affiliations must be quoted)
 affiliations:
  - name: National Centre for Scientific Research “Demokritos”
