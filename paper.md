@@ -14,13 +14,20 @@ authors:
   - name: Chrysoula Themeli
     orcid: 0000-0002-6759-4136
     affiliation: "1"
+  - name: "Alessandro Spinuso"
+    affiliation: "2"
+  - name: "André Gemünd"
+    affiliation: "3"
   - name: Vangelis Karkaletsis
     orcid: 0000-0000-0000-0000
     affiliation: "1"
 affiliations:
  - name: National Centre for Scientific Research “Demokritos”
    index: 1
-date: 26 June 2020
+ - name: Koninklijk Nederlands Meteorologisch Instituut
+   index: 2
+ - name: Fraunhofer-Institut für Algorithmen und Wissenschaftliches Rechnen (SCAI)
+date: July 2020
 bibliography: bibliography.bib
 ---
 
