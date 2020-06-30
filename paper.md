@@ -19,6 +19,7 @@ authors:
   - name: "André Gemünd"
     affiliation: "3"
   - name: Vangelis Karkaletsis
+    orcid: 0000-0000-0000-0000
     affiliation: "1"
 affiliations:
  - name: National Centre for Scientific Research “Demokritos”
@@ -26,6 +27,7 @@ affiliations:
  - name: Koninklijk Nederlands Meteorologisch Instituut
    index: 2
  - name: Fraunhofer-Institut für Algorithmen und Wissenschaftliches Rechnen (SCAI)
+   index: 3
 date: July 2020
 bibliography: bibliography.bib
 ---
@@ -38,7 +40,10 @@ In recent years, modern science has relied more than ever on large-scale data as
 In this environment, scientists and research engineers need user-friendly, self-optimising environments to develop and execute their scientific workflows without being exposed to the implementation detail and complexity of the underlying systems. They need efficient and easy-to-use environments to store and manage their workflows, working datasets and results in order to reuse, share them with colleagues or encourage attribution. Research engineers in particular need to be able to create user-facing prototypes and solutions efficiently and accurately. Last, users need to feel in control and be able to track the progress of execution, data transformation, at a fine level.
 
 
-In this article we present the DARE platform, an open source project developed as part of the EU H2020 project "DARE: Delivering Agile Research Excellence on European e-Infrastructures". The main goal of the DARE platform is to support research scientists and research engineers/developers to transparently make use of research resources and research infrastructures, platforms and software in order to create data- and computationally-intensive domain-oriented applications. The DARE platform enables seamless development and reusability of scientific workflows / applications and the reproducibility of the experiments. It is also designed to be reflective, in order to enable monitoring, reproducibility and optimisations. DARE primarily focuses on the European e-infrastructures ecosystem, but it can also be used independently, e.g. as part of local or specialised installations. More information on DARE can be found in [@klampanos2019dare; @atkinson2019comprehensible; @atkinson_malcolm_2020_3697898].
+In this article we present the DARE platform, an open source project developed as part of the EU H2020 project "DARE: Delivering Agile Research Excellence on European e-Infrastructures"[^1]. The main goal of the DARE platform is to support research scientists and research engineers/developers to transparently make use of research resources and research infrastructures, platforms and software in order to create data- and computationally-intensive domain-oriented applications. The DARE platform enables seamless development and reusability of scientific workflows / applications and the reproducibility of the experiments. It is also designed to be reflective, in order to enable monitoring, reproducibility and optimisations. DARE primarily focuses on the European e-infrastructures ecosystem, but it can also be used independently, e.g. as part of local or specialised installations. More information on DARE can be found in [@klampanos2019dare; @atkinson2019comprehensible; @atkinson_malcolm_2020_3697898].
+
+
+[^1]: This work has been supported by the EU H2020 research and innovation programme under grant agreement No 777413.
 
 
 # The DARE Platform
@@ -139,10 +144,10 @@ The [volcanology use case](https://gitlab.com/project-dare/wp6_volcanology) aims
 Cyclone Tracking is our new [use-case](https://gitlab.com/project-dare/wp7_cyclone-tracking) in the Climate domain. The use-case is based on a binary Fortran-compiled program (https://github.com/cerfacs-globc/cyclone_tracking) which implements a tracking method for tropical centre and transition diagnostic and for locating pressure / vorticity centres. The Cyclone workflow is developed exclusively in CWL, and it makes use of a cyclone tracking model to produce weather data and visualise the results.
 
 
-## Contributions of the DARE Platform
+## The Contribution of the DARE Platform
 
-In the use-cases listed above, the DARE platform contributes the following:
 
+In the use-case listed above the DARE platform achieves the following:
 1. It interfaces with users and external systems via a comprehensive and secure RESTful API
 2. It facilitates the development of modular, reusable and shareable solutions via its workflow registries
 3. It allows for the combination of different workflow approaches, dispel4py and CWL, within the same platform and development environment
@@ -153,12 +158,13 @@ In the use-cases listed above, the DARE platform contributes the following:
 
 # Software
 
-The DARE platform is openly available on [GitLab](https://gitlab.com/project-dare/dare-platform). The DARE repository comes with a [GitLab page](https://project-dare.gitlab.io/dare-platform/) which contains deployment instructions, API documentation and a training demo. The demo is available in the dedicated [DARE Execution API GitLab Repository](https://gitlab.com/project-dare/exec-api/-/tree/master/examples/mySplitMerge) and is also used as an integration test.
 
-Each DARE component includes its own tests as well as client-side helper functions or a short jupyter notebook demo. For the reader's convenience, we provide the following pointers to relevant client-side helper functions or demos:
+The DARE platform is available on [GitLab](https://gitlab.com/project-dare/dare-platform) with our latest release so far (v3.3). We also have a [GitLab page](https://project-dare.gitlab.io/dare-platform/) with installation instructions, API documentation and a short demo. The demo is available in the [DARE Execution API GitLab Repository](https://gitlab.com/project-dare/exec-api/-/tree/master/examples/mySplitMerge) and can be used as an integration test.
 
-i. [Dispel4py Information Registry](https://gitlab.com/project-dare/d4p-registry/-/tree/master/client)
-ii. [Workflow Registry](https://gitlab.com/project-dare/workflow-registry/-/tree/master/workflow_client)
+
+Each DARE component may include its own tests, client-side helper functions or a short jupyter notebook demo. As example, we include some GitLab urls to client-side helper functions or demos:
+
+i. [Dispel4py Information Registry](https://gitlab.com/project-dare/d4p-registry/-/tree/master/cli        ii. [Workflow Registry](https://gitlab.com/project-dare/workflow-registry/-/tree/master/workflow_client)
 iii. [Execution Registry](https://gitlab.com/project-dare/exec-registry/-/tree/master/client)
 
 
@@ -170,11 +176,6 @@ Directions for future work include the following:
 
 1. Make use of provenance data and workflow metadata to further automate the optimisation of workflow execution.
 2. Provide wider-ranging search facilities to users for data, components and containerised environments.
-3. Provide off-the-shelf integration with domain-specific as well as generic repositories (e.g. with [Zenodo](https://zenodo.org/)) to facilitate Open Science best practices.
-
-# Acknowledgements
-
-This work has been supported by the EU H2020 research and innovation programme under grant agreement No 777413.
-
+3. Provide of-the-shelf integration with domain-specific as well as generic repositories (e.g. with [Zenodo](https://zenodo.org/)) in order to facilitate better Open Science best practices.
 
 # References
