@@ -19,7 +19,6 @@ authors:
   - name: "André Gemünd"
     affiliation: "3"
   - name: Vangelis Karkaletsis
-    orcid: 0000-0000-0000-0000
     affiliation: "1"
 affiliations:
  - name: National Centre for Scientific Research “Demokritos”
