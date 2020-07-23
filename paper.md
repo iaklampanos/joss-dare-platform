@@ -11,7 +11,7 @@ authors:
   - name: Iraklis A. Klampanos
     orcid: 0000-0003-0478-4300
     affiliation: "1"
-  - name: Chrysoula Themeli
+  - name: Sissy Themeli
     orcid: 0000-0002-6759-4136
     affiliation: "1"
   - name: "Alessandro Spinuso"
