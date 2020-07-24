@@ -11,7 +11,7 @@ authors:
   - name: Iraklis A. Klampanos
     orcid: 0000-0003-0478-4300
     affiliation: "1"
-  - name: Sissy Themeli
+  - name: Chrysoula Themeli
     orcid: 0000-0002-6759-4136
     affiliation: "1"
   - name: "Alessandro Spinuso"
@@ -106,6 +106,7 @@ The DARE platform is currently used in the following domain applications:
 
 
 In the use-case listed above the DARE platform achieves the following:
+
 1. It interfaces with users and external systems via a comprehensive and secure RESTful API
 2. It facilitates the development of modular, reusable and shareable solutions via its workflow registries
 3. It allows for the combination of different workflow approaches, dispel4py and CWL, within the same platform and development environment
