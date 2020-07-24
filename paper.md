@@ -8,7 +8,7 @@ tags:
   - Cloud
   - e-infrastructures
 authors:
-  - name: Iraklis A. Klampanos
+  - name: Iraklis A. Klampanos^[Corresponding author.]
     orcid: 0000-0003-0478-4300
     affiliation: "1"
   - name: Chrysoula Themeli
@@ -27,7 +27,7 @@ affiliations:
    index: 2
  - name: Fraunhofer-Institut für Algorithmen und Wissenschaftliches Rechnen (SCAI)
    index: 3
-date: July 2020
+date: 24 July 2020
 bibliography: bibliography.bib
 ---
 
@@ -42,9 +42,11 @@ The DARE platform enables the seamless development and reusability of scientific
 
 The DARE platform is designed to live in-between user applications and the underlying computing resources. It is built on top of containerisation as well as parallelisation technologies, e.g. Kubernetes and MPI. Interfacing with client systems and end-users is achieved via RESTful APIs. The execution of scientific workflows is achieved via a Workflows-as-a-service layer, which can handle workflows described in either the dispel4py Python library[@Filgueira2017], or in the Common Workflow Language (CWL)[@amstutz2016common].
 
+
 <center>
    <img src="dare_overview_2020.png" width="400" height="400">
 </center>
+
 
 The main components of the DARE platform are:
 
