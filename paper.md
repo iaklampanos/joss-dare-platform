@@ -104,9 +104,6 @@ The DARE platform is currently used in the following domain applications:
 
 ## Contributions of the DARE Platform
 
-
-In the use-case listed above the DARE platform achieves the following:
-
 1. It interfaces with users and external systems via a comprehensive and secure RESTful API
 2. It facilitates the development of modular, reusable and shareable solutions via its workflow registries
 3. It allows for the combination of different workflow approaches, dispel4py and CWL, within the same platform and development environment
@@ -125,7 +122,7 @@ Each DARE component typically include its own tests, client-side helper function
 # Future Work
 
 
-Directions for future work include the following:
+Directions for future work include:
 
 1. Make use of provenance data and workflow metadata to further automate the optimisation of workflow execution.
 2. Provide wider-ranging search facilities to users for data, components and containerised environments.
