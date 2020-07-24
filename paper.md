@@ -104,12 +104,12 @@ The DARE platform is currently used in the following domain applications:
 
 ## Contributions of the DARE Platform
 
-1. It interfaces with users and external systems via a comprehensive and secure RESTful API
-2. It facilitates the development of modular, reusable and shareable solutions via its workflow registries
-3. It allows for the combination of different workflow approaches, dispel4py and CWL, within the same platform and development environment
-4. Via its execution API it orchestrates the dynamic spawning and closing of MPI clusters on the cloud for MPI-enabled components, e.g. the SPECFEM3D-Cartesian model and the dispel4py MPI mapping
-5. It provides a flexible environment which local administrators can parametrise by adding custom docker-based environments and user interfaces
-6. It collects, mines and visualises provenance information from previous runs
+1. Interfacing with users and external systems via a comprehensive RESTful API
+2. Facilitating the development of modular, reusable and shareable data-intensive solutions
+3. Combining different workflow approaches, dispel4py and CWL, within the same platform and development environment
+4. Via its execution API it orchestrates the dynamic spawning and closing of MPI clusters on the cloud for MPI-enabled components
+5. It provides a flexible environment, which local administrators can parametrise, by supporting custom docker-based environments and user interfaces
+6. It supports the collection, mining and visualisation of provenance information.
 
 
 # Software
